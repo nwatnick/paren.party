@@ -130,7 +130,7 @@
 (defn gen-pair
   []
   (if (re-find #"egalitarian" (or window.location.href ""))
-    (rand-nth [["(" ")"]
+    (rand-nth [["<p>" "</p>"]
                ["[" "]"]
                ["{" "}"]
                ["<" ">"]
